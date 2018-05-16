@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "YRBaseHubOC"
-  s.version      = "0.0.1"
-  s.summary      = "iOS OC项目基础模块"
+  s.name         = "YRBaseHubOC"      #名称
+  s.version      = "0.0.2"	      #版本号
+  s.summary      = "iOS OC项目基础模块"  #简短介绍，下面description是详细介绍
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
                    iOS OC项目基础模块仓库
                    DESC
 
-  s.homepage     = "https://github.com/chanyarin/YRBaseHubOC"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/chanyarin/YRBaseHubOC"	#主页，这里要填写可以访问到的地址，不然验证不通过
+  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"	#截图
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
+  s.license      = "MIT"	#开源协议
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "chanyarin" => "chanyarin@163.com" }
+  s.author             = { "chanyarin" => "chanyarin@163.com" }	#作者信息
   # Or just: s.author    = "chanyarin"
   # s.authors            = { "chanyarin" => "chanyarin@163.com" }
-  # s.social_media_url   = "http://twitter.com/chanyarin"
+  # s.social_media_url   = "http://twitter.com/chanyarin"	#多媒体介绍地址
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "8.0"	#支持的平台及版本
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/chanyarin/YRBaseHubOC.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/chanyarin/YRBaseHubOC.git", :tag => "#{s.version}" }	#项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,14 +91,34 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files  = "YRBaseHubOC/YRBaseHubOC.h"
+s.source_files  = "YRBaseHubOC/YRBaseHubOC.h"	#代码源文件地址
 
-s.subspec 'Content' do |ss|
-   ss.source_files = 'YRBaseHubOC/**/*.{h,m}'
-   ss.exclude_files = "YRBaseHubOC/YRBaseHubOC.h"
+s.subspec 'Category' do |cas|
+   cas.source_files = 'YRBaseHubOC/Category/**/*.{h,m}'
+   #cas.public_header_files = "YRBaseHubOC/Category/Category.h"
 end
 
-  # s.public_header_files = "Classes/**/*.h"
+s.subspec 'Const' do |cos|
+   cos.source_files = 'YRBaseHubOC/Const/*.h'
+   #cos.public_header_files = "YRBaseHubOC/Const/Const.h"
+end
+
+s.subspec 'Enum' do |ens|
+   ens.source_files = 'YRBaseHubOC/Enum/*.h'
+   #ens.public_header_files = "YRBaseHubOC/Enum/Enum.h"
+end
+
+s.subspec 'Macro' do |mas|
+   mas.source_files = 'YRBaseHubOC/Macro/*.h'
+   #mas.public_header_files = "YRBaseHubOC/Macro/Macro.h"
+end
+
+s.subspec 'Util' do |uts|
+   uts.source_files = 'YRBaseHubOC/Util/*.{h,m}'
+   #uts.public_header_files = "YRBaseHubOC/Util/Util.h"
+end
+
+  # s.public_header_files = "Classes/**/*.h"	#公开头文件地址
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -122,7 +142,7 @@ end
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
