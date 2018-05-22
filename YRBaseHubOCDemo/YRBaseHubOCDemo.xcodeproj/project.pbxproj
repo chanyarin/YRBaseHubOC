@@ -13,6 +13,17 @@
 		6D01E22020ABBD6400DE3A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D01E21F20ABBD6400DE3A77 /* Assets.xcassets */; };
 		6D01E22320ABBD6400DE3A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D01E22120ABBD6400DE3A77 /* LaunchScreen.storyboard */; };
 		6D01E22620ABBD6400DE3A77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D01E22520ABBD6400DE3A77 /* main.m */; };
+		6DF5C22520B2BCAA00A8E6FB /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20520B2BCA900A8E6FB /* UINavigationController+SXFullScreen.m */; };
+		6DF5C22620B2BCAA00A8E6FB /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20620B2BCA900A8E6FB /* UINavigation+SXFixSpace.m */; };
+		6DF5C22720B2BCAA00A8E6FB /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20720B2BCA900A8E6FB /* UIBarButtonItem+SXCreate.m */; };
+		6DF5C22820B2BCAA00A8E6FB /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20820B2BCA900A8E6FB /* NSObject+SXRuntime.m */; };
+		6DF5C22920B2BCAA00A8E6FB /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20B20B2BCA900A8E6FB /* NSString+Size.m */; };
+		6DF5C22A20B2BCAA00A8E6FB /* UIViewController+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20D20B2BCA900A8E6FB /* UIViewController+Stack.m */; };
+		6DF5C22B20B2BCAA00A8E6FB /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20E20B2BCA900A8E6FB /* UIViewController+Alert.m */; };
+		6DF5C22C20B2BCAA00A8E6FB /* KeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C21420B2BCA900A8E6FB /* KeyValueObserver.m */; };
+		6DF5C22D20B2BCAA00A8E6FB /* Util_Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C22020B2BCAA00A8E6FB /* Util_Size.m */; };
+		6DF5C22E20B2BCAA00A8E6FB /* Util_Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C22120B2BCAA00A8E6FB /* Util_Path.m */; };
+		6DF5C22F20B2BCAA00A8E6FB /* Util_Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C22220B2BCAA00A8E6FB /* Util_Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +38,35 @@
 		6D01E22420ABBD6400DE3A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D01E22520ABBD6400DE3A77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D01E22D20ABBE2900DE3A77 /* YRBaseHubOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRBaseHubOC.h; sourceTree = "<group>"; };
+		6DF5C20120B2BCA900A8E6FB /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
+		6DF5C20220B2BCA900A8E6FB /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		6DF5C20320B2BCA900A8E6FB /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
+		6DF5C20420B2BCA900A8E6FB /* UIBarButtonItem+SXCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SXCreate.h"; sourceTree = "<group>"; };
+		6DF5C20520B2BCA900A8E6FB /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
+		6DF5C20620B2BCA900A8E6FB /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
+		6DF5C20720B2BCA900A8E6FB /* UIBarButtonItem+SXCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SXCreate.m"; sourceTree = "<group>"; };
+		6DF5C20820B2BCA900A8E6FB /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		6DF5C20A20B2BCA900A8E6FB /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		6DF5C20B20B2BCA900A8E6FB /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		6DF5C20D20B2BCA900A8E6FB /* UIViewController+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Stack.m"; sourceTree = "<group>"; };
+		6DF5C20E20B2BCA900A8E6FB /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		6DF5C20F20B2BCA900A8E6FB /* UIViewController+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Stack.h"; sourceTree = "<group>"; };
+		6DF5C21020B2BCA900A8E6FB /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		6DF5C21120B2BCA900A8E6FB /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		6DF5C21320B2BCA900A8E6FB /* KeyValueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueObserver.h; sourceTree = "<group>"; };
+		6DF5C21420B2BCA900A8E6FB /* KeyValueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueObserver.m; sourceTree = "<group>"; };
+		6DF5C21620B2BCA900A8E6FB /* Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enum.h; sourceTree = "<group>"; };
+		6DF5C21820B2BCA900A8E6FB /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		6DF5C21920B2BCA900A8E6FB /* Macro_Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro_Singleton.h; sourceTree = "<group>"; };
+		6DF5C21A20B2BCA900A8E6FB /* Macro_Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro_Block.h; sourceTree = "<group>"; };
+		6DF5C21C20B2BCAA00A8E6FB /* Util_Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util_Size.h; sourceTree = "<group>"; };
+		6DF5C21D20B2BCAA00A8E6FB /* Util_Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util_Color.h; sourceTree = "<group>"; };
+		6DF5C21E20B2BCAA00A8E6FB /* Util_Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util_Path.h; sourceTree = "<group>"; };
+		6DF5C21F20B2BCAA00A8E6FB /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		6DF5C22020B2BCAA00A8E6FB /* Util_Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util_Size.m; sourceTree = "<group>"; };
+		6DF5C22120B2BCAA00A8E6FB /* Util_Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util_Path.m; sourceTree = "<group>"; };
+		6DF5C22220B2BCAA00A8E6FB /* Util_Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util_Color.m; sourceTree = "<group>"; };
+		6DF5C22420B2BCAA00A8E6FB /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +116,110 @@
 		6D01E22C20ABBE0900DE3A77 /* YRBaseHubOC */ = {
 			isa = PBXGroup;
 			children = (
+				6DF5C1FF20B2BCA900A8E6FB /* Category */,
+				6DF5C22320B2BCAA00A8E6FB /* Const */,
+				6DF5C21520B2BCA900A8E6FB /* Enum */,
+				6DF5C21220B2BCA900A8E6FB /* KVO */,
+				6DF5C21720B2BCA900A8E6FB /* Macro */,
+				6DF5C21B20B2BCAA00A8E6FB /* Util */,
 				6D01E22D20ABBE2900DE3A77 /* YRBaseHubOC.h */,
 			);
 			path = YRBaseHubOC;
+			sourceTree = "<group>";
+		};
+		6DF5C1FF20B2BCA900A8E6FB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C20020B2BCA900A8E6FB /* UINavigation */,
+				6DF5C20920B2BCA900A8E6FB /* NSString */,
+				6DF5C20C20B2BCA900A8E6FB /* UIViewController */,
+				6DF5C21120B2BCA900A8E6FB /* Category.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6DF5C20020B2BCA900A8E6FB /* UINavigation */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C20120B2BCA900A8E6FB /* UINavigationController+SXFullScreen.h */,
+				6DF5C20220B2BCA900A8E6FB /* NSObject+SXRuntime.h */,
+				6DF5C20320B2BCA900A8E6FB /* UINavigation+SXFixSpace.h */,
+				6DF5C20420B2BCA900A8E6FB /* UIBarButtonItem+SXCreate.h */,
+				6DF5C20520B2BCA900A8E6FB /* UINavigationController+SXFullScreen.m */,
+				6DF5C20620B2BCA900A8E6FB /* UINavigation+SXFixSpace.m */,
+				6DF5C20720B2BCA900A8E6FB /* UIBarButtonItem+SXCreate.m */,
+				6DF5C20820B2BCA900A8E6FB /* NSObject+SXRuntime.m */,
+			);
+			path = UINavigation;
+			sourceTree = "<group>";
+		};
+		6DF5C20920B2BCA900A8E6FB /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C20A20B2BCA900A8E6FB /* NSString+Size.h */,
+				6DF5C20B20B2BCA900A8E6FB /* NSString+Size.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		6DF5C20C20B2BCA900A8E6FB /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C20D20B2BCA900A8E6FB /* UIViewController+Stack.m */,
+				6DF5C20E20B2BCA900A8E6FB /* UIViewController+Alert.m */,
+				6DF5C20F20B2BCA900A8E6FB /* UIViewController+Stack.h */,
+				6DF5C21020B2BCA900A8E6FB /* UIViewController+Alert.h */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		6DF5C21220B2BCA900A8E6FB /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C21320B2BCA900A8E6FB /* KeyValueObserver.h */,
+				6DF5C21420B2BCA900A8E6FB /* KeyValueObserver.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		6DF5C21520B2BCA900A8E6FB /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C21620B2BCA900A8E6FB /* Enum.h */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		6DF5C21720B2BCA900A8E6FB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C21820B2BCA900A8E6FB /* Macro.h */,
+				6DF5C21920B2BCA900A8E6FB /* Macro_Singleton.h */,
+				6DF5C21A20B2BCA900A8E6FB /* Macro_Block.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		6DF5C21B20B2BCAA00A8E6FB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C21C20B2BCAA00A8E6FB /* Util_Size.h */,
+				6DF5C21D20B2BCAA00A8E6FB /* Util_Color.h */,
+				6DF5C21E20B2BCAA00A8E6FB /* Util_Path.h */,
+				6DF5C21F20B2BCAA00A8E6FB /* Util.h */,
+				6DF5C22020B2BCAA00A8E6FB /* Util_Size.m */,
+				6DF5C22120B2BCAA00A8E6FB /* Util_Path.m */,
+				6DF5C22220B2BCAA00A8E6FB /* Util_Color.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		6DF5C22320B2BCAA00A8E6FB /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C22420B2BCAA00A8E6FB /* Const.h */,
+			);
+			path = Const;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +292,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF5C22920B2BCAA00A8E6FB /* NSString+Size.m in Sources */,
 				6D01E21B20ABBD6100DE3A77 /* ViewController.m in Sources */,
+				6DF5C22E20B2BCAA00A8E6FB /* Util_Path.m in Sources */,
+				6DF5C22720B2BCAA00A8E6FB /* UIBarButtonItem+SXCreate.m in Sources */,
+				6DF5C22B20B2BCAA00A8E6FB /* UIViewController+Alert.m in Sources */,
+				6DF5C22C20B2BCAA00A8E6FB /* KeyValueObserver.m in Sources */,
+				6DF5C22620B2BCAA00A8E6FB /* UINavigation+SXFixSpace.m in Sources */,
+				6DF5C22D20B2BCAA00A8E6FB /* Util_Size.m in Sources */,
+				6DF5C22820B2BCAA00A8E6FB /* NSObject+SXRuntime.m in Sources */,
+				6DF5C22F20B2BCAA00A8E6FB /* Util_Color.m in Sources */,
 				6D01E22620ABBD6400DE3A77 /* main.m in Sources */,
 				6D01E21820ABBD6100DE3A77 /* AppDelegate.m in Sources */,
+				6DF5C22520B2BCAA00A8E6FB /* UINavigationController+SXFullScreen.m in Sources */,
+				6DF5C22A20B2BCAA00A8E6FB /* UIViewController+Stack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

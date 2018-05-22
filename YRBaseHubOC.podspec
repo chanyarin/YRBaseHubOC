@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YRBaseHubOC"      #名称
-  s.version      = "0.0.2"	      #版本号
+  s.version      = "0.0.3"	      #版本号
   s.summary      = "iOS OC项目基础模块"  #简短介绍，下面description是详细介绍
 
   # This description is used to generate tags and improve search results.
@@ -116,6 +116,11 @@ end
 s.subspec 'Util' do |uts|
    uts.source_files = 'YRBaseHubOC/Util/*.{h,m}'
    #uts.public_header_files = "YRBaseHubOC/Util/Util.h"
+end
+
+s.subspec 'KVO' do |kvos|
+   kvos.source_files = 'YRBaseHubOC/KVO/*.{h,m}'
+   #uts.public_header_files = "YRBaseHubOC/KVO/KeyValueObserver.h"
 end
 
   # s.public_header_files = "Classes/**/*.h"	#公开头文件地址
