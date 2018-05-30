@@ -13,6 +13,7 @@
 		6D01E22020ABBD6400DE3A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D01E21F20ABBD6400DE3A77 /* Assets.xcassets */; };
 		6D01E22320ABBD6400DE3A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D01E22120ABBD6400DE3A77 /* LaunchScreen.storyboard */; };
 		6D01E22620ABBD6400DE3A77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D01E22520ABBD6400DE3A77 /* main.m */; };
+		6D11707B20BE3F4000FD2BD5 /* YRTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D11707920BE3F4000FD2BD5 /* YRTableViewModel.m */; };
 		6DF5C22520B2BCAA00A8E6FB /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20520B2BCA900A8E6FB /* UINavigationController+SXFullScreen.m */; };
 		6DF5C22620B2BCAA00A8E6FB /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20620B2BCA900A8E6FB /* UINavigation+SXFixSpace.m */; };
 		6DF5C22720B2BCAA00A8E6FB /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20720B2BCA900A8E6FB /* UIBarButtonItem+SXCreate.m */; };
@@ -38,6 +39,8 @@
 		6D01E22420ABBD6400DE3A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D01E22520ABBD6400DE3A77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D01E22D20ABBE2900DE3A77 /* YRBaseHubOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRBaseHubOC.h; sourceTree = "<group>"; };
+		6D11707920BE3F4000FD2BD5 /* YRTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRTableViewModel.m; sourceTree = "<group>"; };
+		6D11707A20BE3F4000FD2BD5 /* YRTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTableViewModel.h; sourceTree = "<group>"; };
 		6DF5C20120B2BCA900A8E6FB /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
 		6DF5C20220B2BCA900A8E6FB /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
 		6DF5C20320B2BCA900A8E6FB /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
@@ -116,6 +119,7 @@
 		6D01E22C20ABBE0900DE3A77 /* YRBaseHubOC */ = {
 			isa = PBXGroup;
 			children = (
+				6D11707820BE3F4000FD2BD5 /* Model */,
 				6DF5C1FF20B2BCA900A8E6FB /* Category */,
 				6DF5C22320B2BCAA00A8E6FB /* Const */,
 				6DF5C21520B2BCA900A8E6FB /* Enum */,
@@ -125,6 +129,15 @@
 				6D01E22D20ABBE2900DE3A77 /* YRBaseHubOC.h */,
 			);
 			path = YRBaseHubOC;
+			sourceTree = "<group>";
+		};
+		6D11707820BE3F4000FD2BD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D11707920BE3F4000FD2BD5 /* YRTableViewModel.m */,
+				6D11707A20BE3F4000FD2BD5 /* YRTableViewModel.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		6DF5C1FF20B2BCA900A8E6FB /* Category */ = {
@@ -304,6 +317,7 @@
 				6DF5C22F20B2BCAA00A8E6FB /* Util_Color.m in Sources */,
 				6D01E22620ABBD6400DE3A77 /* main.m in Sources */,
 				6D01E21820ABBD6100DE3A77 /* AppDelegate.m in Sources */,
+				6D11707B20BE3F4000FD2BD5 /* YRTableViewModel.m in Sources */,
 				6DF5C22520B2BCAA00A8E6FB /* UINavigationController+SXFullScreen.m in Sources */,
 				6DF5C22A20B2BCAA00A8E6FB /* UIViewController+Stack.m in Sources */,
 			);

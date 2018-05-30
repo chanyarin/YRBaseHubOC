@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YRBaseHubOC"      #名称
-  s.version      = "0.0.4"	      #版本号
+  s.version      = "0.0.5"	      #版本号
   s.summary      = "iOS OC项目基础模块"  #简短介绍，下面description是详细介绍
 
   # This description is used to generate tags and improve search results.
@@ -93,34 +93,32 @@ Pod::Spec.new do |s|
 
 s.source_files  = "YRBaseHubOC/YRBaseHubOC.h"	#代码源文件地址
 
-s.subspec 'Category' do |cas|
+s.subspec 'Category' do |cas|	#分类文件
    cas.source_files = 'YRBaseHubOC/Category/**/*.{h,m}'
-   #cas.public_header_files = "YRBaseHubOC/Category/Category.h"
 end
 
-s.subspec 'Const' do |cos|
+s.subspec 'Const' do |cos|	#常量
    cos.source_files = 'YRBaseHubOC/Const/*.h'
-   #cos.public_header_files = "YRBaseHubOC/Const/Const.h"
 end
 
-s.subspec 'Enum' do |ens|
+s.subspec 'Enum' do |ens|	#枚举
    ens.source_files = 'YRBaseHubOC/Enum/*.h'
-   #ens.public_header_files = "YRBaseHubOC/Enum/Enum.h"
 end
 
-s.subspec 'Macro' do |mas|
+s.subspec 'Macro' do |mas|	#宏定义
    mas.source_files = 'YRBaseHubOC/Macro/*.h'
-   #mas.public_header_files = "YRBaseHubOC/Macro/Macro.h"
 end
 
-s.subspec 'Util' do |uts|
+s.subspec 'Util' do |uts|	#公共方法
    uts.source_files = 'YRBaseHubOC/Util/*.{h,m}'
-   #uts.public_header_files = "YRBaseHubOC/Util/Util.h"
 end
 
-s.subspec 'KVO' do |kvos|
+s.subspec 'KVO' do |kvos|	#观察者
    kvos.source_files = 'YRBaseHubOC/KVO/*.{h,m}'
-   #uts.public_header_files = "YRBaseHubOC/KVO/KeyValueObserver.h"
+end
+
+s.subspec 'Model' do |mos|	#公共模型
+   mos.source_files = 'YRBaseHubOC/Model/*.{h,m}'
 end
 
   # s.public_header_files = "Classes/**/*.h"	#公开头文件地址
