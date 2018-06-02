@@ -14,6 +14,17 @@
 		6D01E22320ABBD6400DE3A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D01E22120ABBD6400DE3A77 /* LaunchScreen.storyboard */; };
 		6D01E22620ABBD6400DE3A77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D01E22520ABBD6400DE3A77 /* main.m */; };
 		6D11707B20BE3F4000FD2BD5 /* YRTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D11707920BE3F4000FD2BD5 /* YRTableViewModel.m */; };
+		6D11708020BE489000FD2BD5 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D11707F20BE489000FD2BD5 /* BaseTableViewCell.m */; };
+		6D11708C20BE7D0100FD2BD5 /* MultiDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D11708A20BE7D0100FD2BD5 /* MultiDownloadViewController.m */; };
+		6D11708D20BE7D0100FD2BD5 /* MultiDownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D11708B20BE7D0100FD2BD5 /* MultiDownloadViewController.xib */; };
+		6DAF4D2920BFDBB800B96F19 /* MultiDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4D2720BFDBB800B96F19 /* MultiDownloadCell.m */; };
+		6DAF4D2A20BFDBB800B96F19 /* MultiDownloadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF4D2820BFDBB800B96F19 /* MultiDownloadCell.xib */; };
+		6DAF4D3B20C2411800B96F19 /* AFNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4D3920C2411800B96F19 /* AFNetworkViewController.m */; };
+		6DAF4D3C20C2411800B96F19 /* AFNetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DAF4D3A20C2411800B96F19 /* AFNetworkViewController.xib */; };
+		6DAF4D3F20C2416900B96F19 /* XXGKBannerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4D3E20C2416900B96F19 /* XXGKBannerRequest.m */; };
+		6DAF4D4820C2584000B96F19 /* YRNetworkDownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4D4220C2583F00B96F19 /* YRNetworkDownloadModel.m */; };
+		6DAF4D4920C2584000B96F19 /* YRNetworkBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4D4320C2583F00B96F19 /* YRNetworkBaseRequest.m */; };
+		6DAF4D4A20C2584000B96F19 /* YRNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF4D4620C2584000B96F19 /* YRNetworkManager.m */; };
 		6DF5C22520B2BCAA00A8E6FB /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20520B2BCA900A8E6FB /* UINavigationController+SXFullScreen.m */; };
 		6DF5C22620B2BCAA00A8E6FB /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20620B2BCA900A8E6FB /* UINavigation+SXFixSpace.m */; };
 		6DF5C22720B2BCAA00A8E6FB /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C20720B2BCA900A8E6FB /* UIBarButtonItem+SXCreate.m */; };
@@ -25,9 +36,11 @@
 		6DF5C22D20B2BCAA00A8E6FB /* Util_Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C22020B2BCAA00A8E6FB /* Util_Size.m */; };
 		6DF5C22E20B2BCAA00A8E6FB /* Util_Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C22120B2BCAA00A8E6FB /* Util_Path.m */; };
 		6DF5C22F20B2BCAA00A8E6FB /* Util_Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C22220B2BCAA00A8E6FB /* Util_Color.m */; };
+		BA3E7DE79A9A49929E390805 /* libPods-YRBaseHubOCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F226AB10AFAB8AF5367F286F /* libPods-YRBaseHubOCDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FC61048B78F96F7B2E4DD3E /* Pods-YRBaseHubOCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRBaseHubOCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YRBaseHubOCDemo/Pods-YRBaseHubOCDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6D01E21320ABBD6100DE3A77 /* YRBaseHubOCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRBaseHubOCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D01E21620ABBD6100DE3A77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D01E21720ABBD6100DE3A77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +54,27 @@
 		6D01E22D20ABBE2900DE3A77 /* YRBaseHubOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRBaseHubOC.h; sourceTree = "<group>"; };
 		6D11707920BE3F4000FD2BD5 /* YRTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRTableViewModel.m; sourceTree = "<group>"; };
 		6D11707A20BE3F4000FD2BD5 /* YRTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRTableViewModel.h; sourceTree = "<group>"; };
+		6D11707E20BE489000FD2BD5 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		6D11707F20BE489000FD2BD5 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		6D11708920BE7D0100FD2BD5 /* MultiDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiDownloadViewController.h; sourceTree = "<group>"; };
+		6D11708A20BE7D0100FD2BD5 /* MultiDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiDownloadViewController.m; sourceTree = "<group>"; };
+		6D11708B20BE7D0100FD2BD5 /* MultiDownloadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiDownloadViewController.xib; sourceTree = "<group>"; };
+		6DAF4D2620BFDBB800B96F19 /* MultiDownloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiDownloadCell.h; sourceTree = "<group>"; };
+		6DAF4D2720BFDBB800B96F19 /* MultiDownloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiDownloadCell.m; sourceTree = "<group>"; };
+		6DAF4D2820BFDBB800B96F19 /* MultiDownloadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiDownloadCell.xib; sourceTree = "<group>"; };
+		6DAF4D3820C2411800B96F19 /* AFNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkViewController.h; sourceTree = "<group>"; };
+		6DAF4D3920C2411800B96F19 /* AFNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkViewController.m; sourceTree = "<group>"; };
+		6DAF4D3A20C2411800B96F19 /* AFNetworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AFNetworkViewController.xib; sourceTree = "<group>"; };
+		6DAF4D3D20C2416900B96F19 /* XXGKBannerRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXGKBannerRequest.h; sourceTree = "<group>"; };
+		6DAF4D3E20C2416900B96F19 /* XXGKBannerRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXGKBannerRequest.m; sourceTree = "<group>"; };
+		6DAF4D4120C2583F00B96F19 /* YRNetworkRequestCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNetworkRequestCallback.h; sourceTree = "<group>"; };
+		6DAF4D4220C2583F00B96F19 /* YRNetworkDownloadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNetworkDownloadModel.m; sourceTree = "<group>"; };
+		6DAF4D4320C2583F00B96F19 /* YRNetworkBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNetworkBaseRequest.m; sourceTree = "<group>"; };
+		6DAF4D4420C2584000B96F19 /* YRNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNetworkManager.h; sourceTree = "<group>"; };
+		6DAF4D4520C2584000B96F19 /* YRNetworkDownloadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNetworkDownloadModel.h; sourceTree = "<group>"; };
+		6DAF4D4620C2584000B96F19 /* YRNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNetworkManager.m; sourceTree = "<group>"; };
+		6DAF4D4720C2584000B96F19 /* YRNetworkBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNetworkBaseRequest.h; sourceTree = "<group>"; };
+		6DAF4D4B20C2980E00B96F19 /* YRNetworkEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRNetworkEnum.h; sourceTree = "<group>"; };
 		6DF5C20120B2BCA900A8E6FB /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
 		6DF5C20220B2BCA900A8E6FB /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
 		6DF5C20320B2BCA900A8E6FB /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
@@ -70,6 +104,8 @@
 		6DF5C22120B2BCAA00A8E6FB /* Util_Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util_Path.m; sourceTree = "<group>"; };
 		6DF5C22220B2BCAA00A8E6FB /* Util_Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util_Color.m; sourceTree = "<group>"; };
 		6DF5C22420B2BCAA00A8E6FB /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		88A094A3A1B7500937B9BE5A /* Pods-YRBaseHubOCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRBaseHubOCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YRBaseHubOCDemo/Pods-YRBaseHubOCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F226AB10AFAB8AF5367F286F /* libPods-YRBaseHubOCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YRBaseHubOCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3E7DE79A9A49929E390805 /* libPods-YRBaseHubOCDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +126,8 @@
 				6D01E22C20ABBE0900DE3A77 /* YRBaseHubOC */,
 				6D01E21520ABBD6100DE3A77 /* YRBaseHubOCDemo */,
 				6D01E21420ABBD6100DE3A77 /* Products */,
+				CA1BD3419CD8C591FB5CAE42 /* Pods */,
+				C6CD1A0381ABF170BDB4D404 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +142,8 @@
 		6D01E21520ABBD6100DE3A77 /* YRBaseHubOCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6DAF4D3320C240FB00B96F19 /* AFN实现网络请求 */,
+				6D11707C20BE480500FD2BD5 /* AFN实现多文件下载 */,
 				6D01E21620ABBD6100DE3A77 /* AppDelegate.h */,
 				6D01E21720ABBD6100DE3A77 /* AppDelegate.m */,
 				6D01E21920ABBD6100DE3A77 /* ViewController.h */,
@@ -119,6 +160,8 @@
 		6D01E22C20ABBE0900DE3A77 /* YRBaseHubOC */ = {
 			isa = PBXGroup;
 			children = (
+				6DAF4D4020C2580F00B96F19 /* Network */,
+				6D11707D20BE485A00FD2BD5 /* YRKit */,
 				6D11707820BE3F4000FD2BD5 /* Model */,
 				6DF5C1FF20B2BCA900A8E6FB /* Category */,
 				6DF5C22320B2BCAA00A8E6FB /* Const */,
@@ -138,6 +181,111 @@
 				6D11707A20BE3F4000FD2BD5 /* YRTableViewModel.h */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6D11707C20BE480500FD2BD5 /* AFN实现多文件下载 */ = {
+			isa = PBXGroup;
+			children = (
+				6D11708720BE7CF000FD2BD5 /* Controller */,
+				6D11708820BE7CF000FD2BD5 /* Model */,
+				6D11708620BE7CF000FD2BD5 /* View */,
+			);
+			path = "AFN实现多文件下载";
+			sourceTree = "<group>";
+		};
+		6D11707D20BE485A00FD2BD5 /* YRKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D11707E20BE489000FD2BD5 /* BaseTableViewCell.h */,
+				6D11707F20BE489000FD2BD5 /* BaseTableViewCell.m */,
+			);
+			path = YRKit;
+			sourceTree = "<group>";
+		};
+		6D11708620BE7CF000FD2BD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF4D2620BFDBB800B96F19 /* MultiDownloadCell.h */,
+				6DAF4D2720BFDBB800B96F19 /* MultiDownloadCell.m */,
+				6DAF4D2820BFDBB800B96F19 /* MultiDownloadCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D11708720BE7CF000FD2BD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D11708920BE7D0100FD2BD5 /* MultiDownloadViewController.h */,
+				6D11708A20BE7D0100FD2BD5 /* MultiDownloadViewController.m */,
+				6D11708B20BE7D0100FD2BD5 /* MultiDownloadViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D11708820BE7CF000FD2BD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DAF4D3320C240FB00B96F19 /* AFN实现网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF4D3420C240FB00B96F19 /* Controller */,
+				6DAF4D3520C240FB00B96F19 /* Model */,
+				6DAF4D3620C240FB00B96F19 /* View */,
+				6DAF4D3720C240FB00B96F19 /* API */,
+			);
+			path = "AFN实现网络请求";
+			sourceTree = "<group>";
+		};
+		6DAF4D3420C240FB00B96F19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF4D3820C2411800B96F19 /* AFNetworkViewController.h */,
+				6DAF4D3920C2411800B96F19 /* AFNetworkViewController.m */,
+				6DAF4D3A20C2411800B96F19 /* AFNetworkViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6DAF4D3520C240FB00B96F19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DAF4D3620C240FB00B96F19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DAF4D3720C240FB00B96F19 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF4D3D20C2416900B96F19 /* XXGKBannerRequest.h */,
+				6DAF4D3E20C2416900B96F19 /* XXGKBannerRequest.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6DAF4D4020C2580F00B96F19 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF4D4720C2584000B96F19 /* YRNetworkBaseRequest.h */,
+				6DAF4D4320C2583F00B96F19 /* YRNetworkBaseRequest.m */,
+				6DAF4D4520C2584000B96F19 /* YRNetworkDownloadModel.h */,
+				6DAF4D4220C2583F00B96F19 /* YRNetworkDownloadModel.m */,
+				6DAF4D4420C2584000B96F19 /* YRNetworkManager.h */,
+				6DAF4D4620C2584000B96F19 /* YRNetworkManager.m */,
+				6DAF4D4120C2583F00B96F19 /* YRNetworkRequestCallback.h */,
+				6DAF4D4B20C2980E00B96F19 /* YRNetworkEnum.h */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		6DF5C1FF20B2BCA900A8E6FB /* Category */ = {
@@ -235,6 +383,23 @@
 			path = Const;
 			sourceTree = "<group>";
 		};
+		C6CD1A0381ABF170BDB4D404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F226AB10AFAB8AF5367F286F /* libPods-YRBaseHubOCDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1BD3419CD8C591FB5CAE42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88A094A3A1B7500937B9BE5A /* Pods-YRBaseHubOCDemo.debug.xcconfig */,
+				0FC61048B78F96F7B2E4DD3E /* Pods-YRBaseHubOCDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,9 +407,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D01E22920ABBD6400DE3A77 /* Build configuration list for PBXNativeTarget "YRBaseHubOCDemo" */;
 			buildPhases = (
+				E728832F2C5B492C8E186AEF /* [CP] Check Pods Manifest.lock */,
 				6D01E20F20ABBD6100DE3A77 /* Sources */,
 				6D01E21020ABBD6100DE3A77 /* Frameworks */,
 				6D01E21120ABBD6100DE3A77 /* Resources */,
+				0D4F36B7DB90EFFB380093A4 /* [CP] Embed Pods Frameworks */,
+				E02010DA9E240958DE9A3B33 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,13 +460,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DAF4D2A20BFDBB800B96F19 /* MultiDownloadCell.xib in Resources */,
 				6D01E22320ABBD6400DE3A77 /* LaunchScreen.storyboard in Resources */,
+				6DAF4D3C20C2411800B96F19 /* AFNetworkViewController.xib in Resources */,
 				6D01E22020ABBD6400DE3A77 /* Assets.xcassets in Resources */,
+				6D11708D20BE7D0100FD2BD5 /* MultiDownloadViewController.xib in Resources */,
 				6D01E21E20ABBD6100DE3A77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D4F36B7DB90EFFB380093A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YRBaseHubOCDemo/Pods-YRBaseHubOCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E02010DA9E240958DE9A3B33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YRBaseHubOCDemo/Pods-YRBaseHubOCDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E728832F2C5B492C8E186AEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YRBaseHubOCDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D01E20F20ABBD6100DE3A77 /* Sources */ = {
@@ -306,18 +528,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DF5C22920B2BCAA00A8E6FB /* NSString+Size.m in Sources */,
+				6D11708C20BE7D0100FD2BD5 /* MultiDownloadViewController.m in Sources */,
 				6D01E21B20ABBD6100DE3A77 /* ViewController.m in Sources */,
 				6DF5C22E20B2BCAA00A8E6FB /* Util_Path.m in Sources */,
+				6DAF4D2920BFDBB800B96F19 /* MultiDownloadCell.m in Sources */,
 				6DF5C22720B2BCAA00A8E6FB /* UIBarButtonItem+SXCreate.m in Sources */,
 				6DF5C22B20B2BCAA00A8E6FB /* UIViewController+Alert.m in Sources */,
 				6DF5C22C20B2BCAA00A8E6FB /* KeyValueObserver.m in Sources */,
+				6DAF4D4820C2584000B96F19 /* YRNetworkDownloadModel.m in Sources */,
 				6DF5C22620B2BCAA00A8E6FB /* UINavigation+SXFixSpace.m in Sources */,
+				6DAF4D4A20C2584000B96F19 /* YRNetworkManager.m in Sources */,
 				6DF5C22D20B2BCAA00A8E6FB /* Util_Size.m in Sources */,
 				6DF5C22820B2BCAA00A8E6FB /* NSObject+SXRuntime.m in Sources */,
+				6DAF4D3B20C2411800B96F19 /* AFNetworkViewController.m in Sources */,
+				6DAF4D4920C2584000B96F19 /* YRNetworkBaseRequest.m in Sources */,
 				6DF5C22F20B2BCAA00A8E6FB /* Util_Color.m in Sources */,
 				6D01E22620ABBD6400DE3A77 /* main.m in Sources */,
 				6D01E21820ABBD6100DE3A77 /* AppDelegate.m in Sources */,
+				6D11708020BE489000FD2BD5 /* BaseTableViewCell.m in Sources */,
 				6D11707B20BE3F4000FD2BD5 /* YRTableViewModel.m in Sources */,
+				6DAF4D3F20C2416900B96F19 /* XXGKBannerRequest.m in Sources */,
 				6DF5C22520B2BCAA00A8E6FB /* UINavigationController+SXFullScreen.m in Sources */,
 				6DF5C22A20B2BCAA00A8E6FB /* UIViewController+Stack.m in Sources */,
 			);
@@ -457,6 +687,7 @@
 		};
 		6D01E22A20ABBD6400DE3A77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A094A3A1B7500937B9BE5A /* Pods-YRBaseHubOCDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -473,6 +704,7 @@
 		};
 		6D01E22B20ABBD6400DE3A77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC61048B78F96F7B2E4DD3E /* Pods-YRBaseHubOCDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

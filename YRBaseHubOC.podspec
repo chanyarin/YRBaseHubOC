@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YRBaseHubOC"      #名称
-  s.version      = "0.0.5"	      #版本号
+  s.version      = "0.0.6"	      #版本号
   s.summary      = "iOS OC项目基础模块"  #简短介绍，下面description是详细介绍
 
   # This description is used to generate tags and improve search results.
@@ -121,6 +121,10 @@ s.subspec 'Model' do |mos|	#公共模型
    mos.source_files = 'YRBaseHubOC/Model/*.{h,m}'
 end
 
+s.subspec 'Network' do |nets|	#网络封装
+   nets.source_files = 'YRBaseHubOC/Network/*.{h,m}'
+end
+
   # s.public_header_files = "Classes/**/*.h"	#公开头文件地址
 
 
@@ -161,5 +165,7 @@ s.frameworks = "UIKit", "Foundation"
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+s.dependency "AFNetworking"
+s.dependency "YYModel"
 
 end

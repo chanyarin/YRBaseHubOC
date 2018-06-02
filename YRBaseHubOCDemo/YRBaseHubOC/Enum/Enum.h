@@ -9,5 +9,4 @@
 #ifndef Enum_h
 #define Enum_h
 
-
 #endif /* Enum_h */
